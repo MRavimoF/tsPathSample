@@ -1,4 +1,6 @@
-# Test project for TS import path issue
+# TS absolute import paths issue demonstration
+
+On `subFileB` we use absolute path for import `import {subA} from "suba/subFileA"`.
 
 It compiles fine
 `npm run build`
